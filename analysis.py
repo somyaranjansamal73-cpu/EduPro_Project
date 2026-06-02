@@ -1,9 +1,9 @@
 import pandas as pd
 
 # Load datasets
-users = pd.read_csv("Data/users.csv")
-courses = pd.read_csv("Data/courses.csv")
-transactions = pd.read_csv("Data/transactions.csv")
+users = pd.read_csv("users.csv")
+courses = pd.read_csv("courses.csv")
+transactions = pd.read_csv("transactions.csv")
 
 print("Total Users:", len(users))
 print("Total Courses:", len(courses))
