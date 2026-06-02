@@ -1,0 +1,9 @@
+CourseID,CourseName,CourseCategory,CourseType,CourseLevel
+101,Python Basics,Programming,Technical,Beginner
+102,Data Science,Programming,Technical,Intermediate
+103,Web Development,Programming,Technical,Beginner
+104,Digital Marketing,Marketing,Non-Technical,Beginner
+105,Graphic Design,Design,Creative,Intermediate
+106,Machine Learning,Programming,Technical,Advanced
+107,Business Analytics,Business,Professional,Intermediate
+108,UI UX Design,Design,Creative,Beginner
