@@ -1,3 +1,4 @@
+import streamlit as st
 import pandas as pd
 
 # Load datasets
@@ -5,9 +6,9 @@ users = pd.read_csv("users.csv")
 courses = pd.read_csv("courses.csv")
 transactions = pd.read_csv("transactions.csv")
 
-print("Total Users:", len(users))
-print("Total Courses:", len(courses))
-print("Total Transactions:", len(transactions))
+st.write("Total Users:", len(users))
+st.write("Total Courses:", len(courses))
+st.write("Total Transactions:", len(transactions))
 
 print("\nCourse Enrollments:")
 print(transactions["CourseID"].value_counts())
