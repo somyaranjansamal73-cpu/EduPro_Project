@@ -38,7 +38,7 @@ plt.title("Age Group Distribution")
 plt.xlabel("Age Groups")
 plt.ylabel("Number of Users")
 
-plt.show()
+st.pyplot(plt)
 # Gender Distribution Chart
 
 import matplotlib.pyplot as plt
@@ -49,7 +49,7 @@ plt.title("Gender Distribution")
 plt.xlabel("Gender")
 plt.ylabel("Number of Users")
 
-plt.show()
+st.pyplot(plt)
 # Course Category Pie Chart
 
 merged["CourseCategory"].value_counts().plot(
@@ -59,4 +59,4 @@ merged["CourseCategory"].value_counts().plot(
 
 plt.title("Course Category Popularity")
 
-plt.show()
+st.pyplot(plt)
